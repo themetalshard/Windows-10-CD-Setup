@@ -1,5 +1,7 @@
 # Windows 10 CD installer
 
+<img width="979" height="510" alt="image" src="https://github.com/user-attachments/assets/f0f60e82-60d8-406d-9097-2cd7907a0ad6" />
+
 This is a random project I made in C#.
 To use this, you'll need to split a Windows 10 1809 x64 into 700MB .swm files.
 
