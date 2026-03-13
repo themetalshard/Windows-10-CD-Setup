@@ -5,12 +5,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <ApplicationIcon>windows-10-icon.ico</ApplicationIcon>
+    <ApplicationIcon>windows.ico</ApplicationIcon>
     <Company>$(Authors)</Company>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="windows-10-icon.ico" />
+    <Content Include="windows.ico" />
   </ItemGroup>
 
 </Project>
