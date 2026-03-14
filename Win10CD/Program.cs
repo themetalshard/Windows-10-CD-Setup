@@ -145,22 +145,23 @@ class WinCDInstaller
 
         string[] editions =
         {
-            "[1] Windows 10 Education",
-            "[2] Windows 10 Education N",
-            "[3] Windows 10 Enterprise",
-            "[4] Windows 10 Enterprise N",
-            "[5] Windows 10 Pro",
-            "[6] Windows 10 Pro N",
-            "[7] Windows 10 Pro Education",
-            "[8] Windows 10 Pro Education N",
-            "[9] Windows 10 Pro for Workstations",
-            "[10] Windows 10 Pro N for Workstations"
+            "Windows 10 Education",
+            "Windows 10 Education N",
+            "Windows 10 Enterprise",
+            "Windows 10 Enterprise N",
+            "Windows 10 Pro",
+            "Windows 10 Pro N",
+            "Windows 10 Pro Education",
+            "Windows 10 Pro Education N",
+            "Windows 10 Pro for Workstations",
+            "Windows 10 Pro N for Workstations"
         };
 
         Console.WriteLine("Installation successful!");
         Console.WriteLine("[*] Which version should be deployed?\n");
 
-        Console.WriteLine($"{editions}");
+        for (int i = 0; i < editions.Length; i++)
+            Console.WriteLine($"[{i + 1}] {editions[i]}");
 
         Console.Write("\n[-] Enter your choice: ");
 
