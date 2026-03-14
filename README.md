@@ -11,4 +11,4 @@ dism /Split-Image /ImageFile:install.wim /SWMFile:install.swm /FileSize:700 (cha
 You'll need to place the individual .swm files into an individual ISO file using a program like AnyBurn (https://anyburn.com/).
 Make sure to rename the 1st install.swm to install1.swm (sorry for this, but..)
 
-Run the setup program from Windows PE or even from a regular install of Windows and follow the instructions.
+Run the setup program from Windows PE or a regular install of Windows and follow the instructions.
